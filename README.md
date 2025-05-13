@@ -1,4 +1,4 @@
-# 🧃 Vending Machine Logic Circuit (Proteus Simulation)
+# Vending Machine Logic Circuit (Proteus Simulation)
 
 ![Animated Demo](photos/animated.png)
 
@@ -8,7 +8,7 @@ It models a basic vending machine that:
 - Dispenses **a single product** priced at **5 units**,
 - Allows the machine **owner to refill** products easily.
 
-## 🛠 Features
+## Features
 - **Coin Counter**: Accepts up to 5 coins and tracks the number using JK flip-flops.
 - **Product Dispenser**: Dispenses one product when 5 coins are inserted, then resets.
 - **Product Stock Memory**: Keeps track of how many products are left.
@@ -20,9 +20,9 @@ It models a basic vending machine that:
   - **Red LED**: Machine is empty.
 - **Owner Refill System**: Easily refill the machine using a priority encoder and load button.
 
-## 🎥 Demo Video
+## Demo Video
 Watch the full simulation demo here:  
 [📽️ Google Drive Video Link](https://drive.google.com/file/d/1nu4CfB5IWETVG8toQIkKah-1oBYVqLq-/view?usp=drive_link)
 
-## 📷 Project Screenshot
+## Project Screenshot
 ![Final Circuit Screenshot](photos/final.png)
