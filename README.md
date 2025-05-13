@@ -1,11 +1,32 @@
-# Vending Machine in Proteus
-![animated photo](photos/animated.png)
-Proteus Project that simulates vending machine having only one product with price of 5 units.
-It also adds the functionalit for the Machine owner to fill up the machine once again.
+# 🧃 Vending Machine Logic Circuit (Proteus Simulation)
 
-The following is a link to an explanatory video of the product
+![Animated Demo](photos/animated.png)
 
-https://drive.google.com/file/d/1nu4CfB5IWETVG8toQIkKah-1oBYVqLq-/view?usp=drive_link
+This project is a **digital logic simulation of a vending machine** using **Proteus**.  
+It models a basic vending machine that:
+- Accepts coins (via momentary button press),
+- Dispenses **a single product** priced at **5 units**,
+- Allows the machine **owner to refill** products easily.
 
+## 🛠 Features
+- **Coin Counter**: Accepts up to 5 coins and tracks the number using JK flip-flops.
+- **Product Dispenser**: Dispenses one product when 5 coins are inserted, then resets.
+- **Product Stock Memory**: Keeps track of how many products are left.
+- **Visual Output**: Uses 7-segment displays to show:
+  - Inserted coins,
+  - Number of products remaining.
+- **LED Indicators**:
+  - **Green LED**: Products available.
+  - **Red LED**: Machine is empty.
+- **Owner Refill System**: Easily refill the machine using a priority encoder and load button.
 
-![project_screenshot](photos/final.png)
+## 🎥 Demo Video
+Watch the full simulation demo here:  
+[📽️ Google Drive Video Link](https://drive.google.com/file/d/1nu4CfB5IWETVG8toQIkKah-1oBYVqLq-/view?usp=drive_link)
+
+## 📷 Project Screenshot
+![Final Circuit Screenshot](photos/final.png)
+
+---
+
+Let me know if you want me to add circuit diagrams, truth tables, or explain how each block works in the README too!
