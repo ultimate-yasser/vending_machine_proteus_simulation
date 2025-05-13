@@ -26,7 +26,3 @@ Watch the full simulation demo here:
 
 ## 📷 Project Screenshot
 ![Final Circuit Screenshot](photos/final.png)
-
----
-
-Let me know if you want me to add circuit diagrams, truth tables, or explain how each block works in the README too!
